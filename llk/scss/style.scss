@@ -1,0 +1,117 @@
+@import 'config';
+
+* {
+    font-family: $font-stack;
+}
+
+body {
+    background-color: $primary-color;
+}
+
+
+.sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    color: $primary-color;
+    background-color: $secondary-color;
+    max-width: 300px;
+
+    &-content {
+        margin-top: $top-gap;
+        margin-left: 20px;
+padding: 10px;
+
+h3 {
+font-size: 1.2rem;
+}
+
+#search-input {
+    margin-top: $nav-margin-between;
+    margin-bottom: $nav-margin-between;
+    margin-right: 20px;
+    color: $primary-color;
+    background-color: $secondary-color;
+}
+
+.nav-items {
+
+    .icon {
+        max-width: 1rem;
+        max-height: auto;
+      margin-right: 5px;
+      vertical-align: text-top;
+    }
+
+    .a-tag {
+display: block;
+margin: 20px 0;
+margin-bottom: $nav-margin-between;
+
+a {
+    text-decoration: none;
+    color: $primary-color;
+}
+    }
+
+    #new-entry {
+        margin-top: 5vh;
+    }
+}
+
+.footer {
+    margin-top: 40vh;
+    img {
+max-width: 30%;
+max-height: auto;
+    }
+    p {
+        margin-top: 10px;
+        font-size: 0.8rem;
+    }
+}
+    }
+    
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.style-guide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+.style-guide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.style-guide {
+    height: 100vh;
+    overflow: scroll;
+max-width: 1000px;
+
+#top-div {
+    margin-top: $top-gap;
+}
+
+    &-content    {
+        margin-bottom: $style-guide-margin-between;
+        height: 120px;
+        border-bottom: 1px solid $tertiary-color;
+
+
+        h2 {
+            font-weight: 600;
+        }
+    }
+
+    .subtitle {
+        font-size: 0.8rem;
+    }
+}
+
+ 
+
+h1 {
+    color: $primary-color;
+}
